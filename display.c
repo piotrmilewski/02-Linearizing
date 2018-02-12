@@ -47,7 +47,7 @@ void clear_screen( screen s ) {
   int x, y;
   color c;
 
-  c.red = DEFAULT_COLOR;
+  c.red = MAX_COLOR;
   c.green = DEFAULT_COLOR;
   c.blue = DEFAULT_COLOR;
 
